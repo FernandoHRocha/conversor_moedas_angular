@@ -7,12 +7,14 @@ import { ConversorComponent } from './components';
 import { MoedaService, ConversorService } from './services';
 import { EntradaNumeroDirective } from './directives';
 import { ModalCotacaoComponent } from './utils';
+import { DataBrPipe } from './pipes/data-br.pipe';
 
 @NgModule({
   declarations: [
     ConversorComponent,
     EntradaNumeroDirective,
-    ModalCotacaoComponent
+    ModalCotacaoComponent,
+    DataBrPipe
   ],
   imports: [
     CommonModule,
