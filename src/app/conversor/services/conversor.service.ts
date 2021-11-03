@@ -1,12 +1,9 @@
 import { Injectable } from '@angular/core';
-// Importamos o HttpClient ao invés do Http para o Angular 7
-//import { Http } from '@angular/http';
 import { HttpClient } from '@angular/common/http';
+
 import { Observable } from 'rxjs/Observable';
-import { 
- Conversao,
- ConversaoResponse 
-} from '../models';
+import { Conversao, ConversaoResponse } from '../models';
+
 @Injectable()
 export class ConversorService {
 
