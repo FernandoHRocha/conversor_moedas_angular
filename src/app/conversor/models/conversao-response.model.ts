@@ -1,6 +1,6 @@
 export class ConversaoResponse {
     constructor(
         public base: string,
-        public data: string,
+        public date: string,
         public rates: any) {}
 }
